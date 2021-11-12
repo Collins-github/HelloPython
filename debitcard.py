@@ -42,4 +42,4 @@ card = DebitCard
 #card.transfer()
 
 # to check balance
-card.check_balance()
+#card.check_balance()
