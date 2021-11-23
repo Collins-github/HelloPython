@@ -1,6 +1,5 @@
 """
 Source: https://www.expatrio.com/living-germany/learn-german/german-alphabet-and-grammar
-
 """
 
 alphabet = {
@@ -35,12 +34,12 @@ print("Print out the German phonetic spelling of the letters of any 	word! \nInp
 while True:
 	word = input("> ").upper()
 	output = ""
+	if word == 'QUIT':
+			break
 	try:
 		for letters in word:
 			code = alphabet.get(letters, letters)
 			output += code + ' '
 		print(output)
-		if word == 'quit':
-			break
 	except TypeError:
 		print("Invalid input")
