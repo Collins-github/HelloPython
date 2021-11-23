@@ -31,12 +31,12 @@ print("You get to print any word , in 'x codes'!\ninput 'quit', without the quot
 while True:
 	word = input("> ").upper()
 	output = ""
+	if word == 'QUIT':
+		break
 	try:
 		for letters in word:
 			code = alphabet.get(letters)
 			output += code + ' '
 		print(output)
-		if word == 'quit':
-			break
 	except TypeError:
 		print("Invalid input")
