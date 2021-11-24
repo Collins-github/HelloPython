@@ -31,7 +31,14 @@ alphabet = {
 	'Y': '–•––',
 	'Z': '––••',
 }
-print("Print out the German phonetic spelling of the letters of any 	word! \nInput 'quit', without the quotation\nto end the program")
+print("""
+Hi! My name is Mirabel.
+I can translate words to Morse code
+
+Input 'quit' without the quotation marks
+to end the program
+
+""")
 while True:
 	word = input("> ").upper()
 	output = ""
