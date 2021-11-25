@@ -99,3 +99,12 @@ When calculating on the interpreter/terminal/interactive shell, using an undersc
 '''
 This doesn't work on an IDE, unfortunately. This feature was sold for a GUI.
 '''
+'''
+Bonus: These are syntax I learnt from a Python 2 materials. 
+1. I did not know a variable can contain multiple values like a list without explicitly being one.
+2. I filled placeholders without concatenation, formatting or f strings.
+Obviously, this is unpythonic for Python 3.
+'''
+        names = "Mercedes", "Honda"
+        number = 4, 5
+        print("My cars are", names[0], "and", names[1], "and they are", number[0], "and", number[1], "in numbers respectively")
